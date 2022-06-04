@@ -14,7 +14,7 @@
             $sql_query = "select Wo_Products.name, Wo_Products.description, Wo_Products.location, Wo_Products.tag, Wo_Products_Media.image, Wo_Posts.post_id FROM ((Wo_Products INNER JOIN Wo_Products_Media ON Wo_Products.id = Wo_Products_Media.product_id and Wo_Products.remark = 'Shout')INNER JOIN Wo_Posts ON Wo_Posts.product_id = Wo_Products.id) ORDER BY Wo_Products.id DESC limit 6 ";
             $resultset = mysqli_query($connect, $sql_query) or die("database error:" . mysqli_error($connect));
             while ($rows = mysqli_fetch_array($resultset)) { ?>
-                post
+                <!-- post one -->
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row no-gutters">
                         <div class="col-md-4 p-1">
