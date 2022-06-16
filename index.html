@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" 
+    content="width=device-width, 
+    initial-scale=1, shrink-to-fit=no">
+   <title>Button</title>
+</head>
+<style>
+    .wrapper{
+        width: 100%;
+        height: 100%;
+        display:block;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 20px;
+    } 
+    .wrapper a{
+        width: 100%;
+        height: 100%;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        border:1px solid #123456;
+        color: #444;
+        margin: 1rem;
+        padding: 10px;
+        position: relative;
+    }
+    .wrapper a span{
+        background-color: red;
+        position: absolute;
+        z-index: -1;
+        transition: 0.8s ease-out;
+    }
+    .wrapper a:hover{
+        color: #FFFF;
+    }
+    .to-right{
+        width: 0%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .wrapper a:hover .to-right{
+        width: 100%;
+        transform: 0.8s;
+    }
+    .to-left{
+        width: 0%;
+        height: 100%;
+        top: 0;
+        right: 0;
+    }
+    .wrapper a:hover .to-left{
+        width: 100%;
+        transform: 0.8s;
+    }
+    .to-top{
+        width: 100%;
+        height: 0px;
+        top: 0;
+        right: 0;
+    }
+    .wrapper a:hover .to-top{
+        height: 100%;
+        transform: 0.8s;
+    }
+    .to-bottom{
+        width: 100%;
+        height: 0px;
+        left:  0;
+        bottom: 0;
+    }
+    .wrapper a:hover .to-bottom{
+        height: 100%;
+        transform: 0.8s;
+    }
+
+    .diagonal{
+        width: 0%;
+        height: 0%;
+        left:  0;
+        bottom: 0;
+    }
+    .wrapper a:hover .diagonal{
+        height: 100%;
+        width: 100%;
+        transform: 0.8s;
+    }
+    
+</style>
+<body>
+<div class="wrapper">
+    <div>
+        <a href="box/index.html" target="_blank">Box<span class="to-right"></span></a>
+    </div>
+    <div>
+        <a href="ExploreYourCity/index.html" target="_blank">ExploreYourCity<span class="to-left"></span></a>
+    </div>
+    <div>
+        <a href="pricing/index.html" target="_blank">Pricing<span class="to-top"></span></a>
+    </div>
+    <div>
+       <a href="Quote/index.html" target="_blank">Quote<span class="to-bottom"></span></a> 
+    </div>
+    <div>
+       <a href="Shout/index.html" target="_blank">Shout<span class="diagonal"></span></a> 
+    </div>
+</div>
+
+</body>
+</html>

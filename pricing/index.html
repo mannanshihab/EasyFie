@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width", initial-scale="1.0">
+ 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>EasyFie | Pricing</title>
+</head>
+<body>
+<!--Start pricing box -->
+<div class="#">
+<style type="text/css"> 
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+      #PRICING .toggle-switch{
+        display: flex;
+        height: 30px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        color: #009AFF;
+        text-transform: capitalize;
+      }
+      #PRICING .toggler{
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        width: 60px;
+        height: 25px;
+        background-color: #009AFF;
+        border-radius: 25px;
+        margin: 0 1rem;
+        position: relative;
+      }
+      #PRICING .toggler::before{
+        content: "";
+        width: 16px;
+        height: 16px;
+        background-color: white;
+        position: absolute;
+        border-radius: 50%;
+        top:55%;
+        transform: translateY(-60%);
+        right:4px;
+      }
+
+      #PRICING .toggler:checked:before{
+        right: 65%;
+      }
+
+      #PRICING .text-xl{
+        width: 85%;
+        display: block;
+        margin: 0 auto;
+        background-color: #FFFF;
+        padding: 10px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      #PRICING .title_Growth{
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: center;
+        color: #ED028C;
+        text-transform: uppercase;
+        border-bottom: 10px solid #ED028C;
+      }
+      #PRICING .title_standard{
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: center;
+        color: #F9A91B;
+        text-transform: uppercase;
+        border-bottom: 10px solid #F9A91B;
+      }
+      #PRICING .title_advance{
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: center;
+        color: #99CA3B;
+        text-transform: uppercase;
+        border-bottom: 10px solid #99CA3B;
+      }
+
+      #PRICING .pink_bg{
+        background: #ED028C;
+        color: #FFF;
+      }
+      #PRICING .standard_bg{
+        background: #F9A91B;
+        color: #FFF;
+      }
+      #PRICING .advance_bg{
+        background: #99CA3B;
+        color: #FFF;
+      } 
+
+      #PRICING .text_pink{
+        color: #ED028C;
+        margin-top: 20px;
+      }
+      #PRICING .text_standard{
+        color: #F9A91B;
+        margin-top: 20px;
+      }
+      #PRICING .text_advance{
+        color: #99CA3B;
+        margin-top: 20px;
+      }
+      #PRICING .easyfie_bg{
+        background-color:#009AFF;
+        color: #FFFF;
+      }
+      #PRICING .easyfie_text{
+        color:#009AFF;
+        font-size: 4rem;
+        margin-bottom: 2rem;
+      }
+      #PRICING .comparison_shadow{
+        box-shadow: 7px 7px #888888;
+      } 
+      #PRICING  .transform {
+        --tw-translate-x: 0;
+        --tw-translate-y: 0;
+        --tw-rotate: 0;
+        --tw-skew-x: 0;
+        --tw-skew-y: 0;
+        --tw-scale-x: 1;
+        --tw-scale-y: 1;
+        transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+      }
+      #PRICING   .-skew-x-12 {
+        --tw-skew-x: -12deg;
+      }
+      #PRICING div{
+        padding: 2px   
+      } 
+      #PRICING  a {
+        color: #fff;
+      }
+      #PRICING  .price_btn{
+        margin-top: 1rem;
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+      }
+      #PRICING  .btn-sm{
+        border-radius: 10px;
+        font-size: 1.2rem;
+        width: 30%;
+      }
+      #PRICING  .font-semibold{
+        font-size: 2rem;
+      }
+      #PRICING .float-right{
+        float: right;
+        margin-top: 0px;
+      }
+      #PRICING  a {
+        text-decoration: none;
+        background: none;
+      }
+      #PRICING .btn-lg{
+        width: 100%;
+        height: 90%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 50px;
+      }
+      #PRICING .price{
+        font-size: 4rem;
+        font-weight: 400;
+      }     
+</style>
+<section id="PRICING" class="package">
+    <div class="container">
+      <div class="toggle-switch mt-5 mb-5">
+          <h2>Yearly </h2>
+          <input type="checkbox" class="toggler">
+          <h2>Monthly</h2>
+      </div>    
+      <div class="row">
+        <div class="col-md-4">
+          <div class="text-xl">
+              <div class="title_Growth uppercase text-center text-2xl">
+                Growth
+              </div>
+              <div class="text-center btn btn-lg pink_bg">
+                  <div id="growth-price" class="">
+                      <div class="price">$15.99</div>
+                      <div>Per Month</div>
+                  </div>
+              </div>
+              <div class="flex items-center align-content-between">
+                  <span class="font-semibold">Website</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg ">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Free Domain</span> 
+                  <span class="float-right btn btn-sm text-white pink_bg px-1">.com</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Installation</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Support</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Bandwidth</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Unlimited</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Post limit</span> 
+                  <span class="float-right btn btn-sm text-white pink_bg px-1 ">350</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">SSL</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Custom Design</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">No</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Offer Listing</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Product Listing</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Blog</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Service Listing</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Process Time</span> 
+                  <span class="float-right btn btn-sm text-white pink_bg px-1 ">3 Day</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Photography</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Content Post</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Promotion gift</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              
+              <div class="btn price_btn transform -skew-x-12 py-3 px-6 mx-auto comparison_shadow mb-4 pink_bg text-white font-semibold text-center text-2xl mt-4">
+                  <a href="#"  onclick="Wo_GetPaymentLink(1)">ORDER</a> 
+              </div>
+              <!-- <div class="text-2xl font-semibold text-center text_pink">5000</div> -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="text-xl">
+              <div class="title_standard uppercase text-center text-2xl">
+                STANDARD
+              </div>
+              <div class="text-center btn btn-lg standard_bg">
+                  <div id="standard-price" class="">
+                      <div class="price">$29.99</div>
+                      <div>Per Month</div>
+                  </div>
+              </div>
+              <div class="flex items-center align-content-between">
+                  <span class="pr-2 font-semibold">Website</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Free Domain</span> 
+                  <span class="float-right btn btn-sm text-white standard_bg px-1">.com</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Installation</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Support</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Bandwidth</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Unlimited</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Post limit</span> 
+                  <span class="float-right btn btn-sm text-white standard_bg px-1 ">500</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">SSL</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Custom Design</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">No</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Offer Listing</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Product Listing</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Blog</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Service Listing</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Process Time</span> 
+                  <span class="float-right btn btn-sm text-white standard_bg px-1 ">3 Day</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Photography</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">20 Product</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Content Post</span> 
+                  <span class="float-right btn btn-sm text-white standard_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Promotion gift</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              
+              <div class="btn price_btn transform -skew-x-12 py-3 px-6 mx-auto comparison_shadow mb-4 standard_bg text-white font-semibold text-center text-2xl mt-4">
+                  <a href="#"  onclick="Wo_GetPaymentLink(2)">ORDER</a> 
+              </div>
+              <!-- <div class="text-2xl font-semibold text-center text_standard">
+                  8000
+              </div> -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="text-xl">
+              <div class="title_advance uppercase text-center text-2xl">
+                advance
+              </div>
+              <div class="text-center btn btn-lg advance_bg">
+                  <div id="advance-price" class="">
+                      <div class="price">$49.99</div>
+                      <div>Per Month</div>
+                  </div>
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Website</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Free Domain</span> 
+                  <span class="float-right btn btn-sm text-white advance_bg px-1">.com</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Installation</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Support</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Bandwidth</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Unlimited</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Post limit</span> 
+                  <span class="float-right btn btn-sm text-white advance_bg px-1 ">1000</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">SSL</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Custom Design</span> 
+                  <span class="float-right btn btn-sm text-white advance_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Offer Listing</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Product Listing</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Blog</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Service Listing</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Process Time</span> 
+                  <span class="float-right btn btn-sm text-white advance_bg px-1 ">2 weeks</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Photography</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">40 product</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Content Post</span> 
+                  <span class="float-right btn btn-sm text-white advance_bg px-1">Yes</span> 
+              </div>
+              <div class="flex items-center justify-between">
+                  <span class="pr-2 font-semibold">Promotion gift</span> 
+                  <span class="float-right btn btn-sm text-white easyfie_bg px-1">Yes</span> 
+              </div>
+              
+              <div class="btn price_btn transform -skew-x-12 py-3 px-6 mx-auto comparison_shadow mb-4 advance_bg text-white font-semibold text-center text-2xl mt-4">
+                  <a href="#"  onclick="Wo_GetPaymentLink(3)">ORDER</a> 
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript">
+      const toggler = document.querySelector(".toggler");
+      const growthPrice = document.getElementById("growth-price");
+      const standardPrice = document.getElementById("standard-price");
+      const advancePrice = document.getElementById("advance-price");
+
+      toggler.addEventListener("change", ()=>{
+      if(toggler.checked){
+          growthPrice.innerHTML = `<div id="growth-price" class="">
+                                      <div class="price">$163</div>
+                                      <div>Per Yearly</div>
+                                  </div>`;
+          standardPrice.innerHTML = `<div id="standard-price" class="">
+                                          <div class="price">$287</div>
+                                          <div>Per Yearly</div>
+                                      </div>`;
+          advancePrice.innerHTML = `<div id="advance-price" class="">
+                                          <div class="price">$450</div>
+                                          <div>Per Yearly</div>
+                                    </div>`;
+      }else{
+          growthPrice.innerHTML = `<div id="growth-price" class="">
+                                      <div class="price"> $15.99</div>
+                                      <div>Per Monthly</div>
+                                  </div>`;
+          standardPrice.innerHTML = `<div id="standard-price" class="">
+                                          <div class="price">$29.99</div>
+                                          <div>Per Monthly</div>
+                                      </div>`;
+          advancePrice.innerHTML = `<div id="advance-price" class="">
+                                          <div class="price">$49.99</div>
+                                          <div>Per Monthly</div>
+                                    </div>`;
+      }
+    })
+  </script>
+</div><!--End pricing box -->
+
+</body>
+</html>
