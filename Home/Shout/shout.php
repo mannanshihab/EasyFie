@@ -1,7 +1,6 @@
 <section id="Shout" class="p-2">
     <div class="container mt-5">
         <h2 class="text-uppercase text-center pt-5 pb-5">Shout</h2>
-        <!-- <p class="description text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodsunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodsunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
         <div class="row">
 
             <?php
@@ -22,7 +21,7 @@
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <a href="#">
+                                <a href="post/<?php echo $rows["post_id"]; ?>" target="_blank">
                                     <h5 class="card-title">
                                         <?= substr($rows['name'], 0, 42) . '...'; ?>
                                     </h5>
